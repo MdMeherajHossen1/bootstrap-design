@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C-WORLD</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- header starts from here -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MENU</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Products</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Catagory
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Man Cloths</a></li>
+                                <li><a class="dropdown-item" href="#">Women Cloths</a></li>
+                                <li><a class="dropdown-item" href="#">kids Cloths</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search Items" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header ends here -->
+
+    <main>
+        <!-- carousel starts from here -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item ">
+                    <img src="slider/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item active">
+                    <img src="slider/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="slider/4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Cloths World</h5>
+                    <p>Welcome to Our cloths world. You can get all kind of Cloths for Man, Women and kids.</p>
+                    <button class="btn btn-outline-danger">Man Cloths</button>
+                    <button class="btn btn-outline-success">Woman Cloths</button>
+                    <button class="btn btn-outline-info">Kids Cloths</button>
+                </div>
+
+
+            </div>
+            <button class=" carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- carousel ends here -->
+
+        <!-- products items starts from here -->
+        <section class="container mt-3">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col h-75">
+                    <div class="card">
+                        <img class="img-fluid" src="images/jackets/jacket-1.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Winter Jacket</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat autem laborum commodi
+                                quod quae odit voluptatum quidem ullam quia repudiandae!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="img-fluid card-img-top" src="images/jackets/jacket-2.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Winter Jacket</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat autem laborum commodi
+                                quod quae odit voluptatum quidem ullam quia repudiandae!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="img-fluid card-img-top" src="images/jackets/jacket-3.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Winter Jacket</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat autem laborum commodi
+                                quod quae odit voluptatum quidem ullam quia repudiandae!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="img-fluid card-img-top" src="images/jackets/jacket-5.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Winter Jacket</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat autem laborum commodi
+                                quod quae odit voluptatum quidem ullam quia repudiandae!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="img-fluid card-img-top" src="images/jackets/jacket-6.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Winter Jacket</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat autem laborum commodi
+                                quod quae odit voluptatum quidem ullam quia repudiandae!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="img-fluid card-img-top" src="images/jackets/jacket-7.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Winter Jacket</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat autem laborum commodi
+                                quod quae odit voluptatum quidem ullam quia repudiandae!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="img-fluid card-img-top" src="images/jackets/jacket-7.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Winter Jacket</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat autem laborum commodi
+                                quod quae odit voluptatum quidem ullam quia repudiandae!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="img-fluid card-img-top" src="images/jackets/jacket-7.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Winter Jacket</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat autem laborum commodi
+                                quod quae odit voluptatum quidem ullam quia repudiandae!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- bags section -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+                    <div class="card">
+                        <img src="images/bags/bag-1.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Hand bags</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo recusandae sed optio
+                                voluptatibus molestiae id ut eius fugit omnis? Explicabo!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="images/bags/bag-2.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Hand bags</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo recusandae sed optio
+                                voluptatibus molestiae id ut eius fugit omnis? Explicabo!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col lg-3">
+                    <div class="card">
+                        <img src="images/bags/bag-3.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Hand bags</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo recusandae sed optio
+                                voluptatibus molestiae id ut eius fugit omnis? Explicabo!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col lg-3">
+                    <div class="card">
+                        <img src="images/bags/bag-4.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Hand bags</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo recusandae sed optio
+                                voluptatibus molestiae id ut eius fugit omnis? Explicabo!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col lg-3">
+                    <div class="card">
+                        <img src="images/bags/bag-5.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Hand bags</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo recusandae sed optio
+                                voluptatibus molestiae id ut eius fugit omnis? Explicabo!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col lg-3">
+                    <div class="card">
+                        <img src="images/bags/bag-6.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Hand bags</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo recusandae sed optio
+                                voluptatibus molestiae id ut eius fugit omnis? Explicabo!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col lg-3">
+                    <div class="card">
+                        <img src="images/bags/bag-7.png" alt="">
+                        <div class="card-body">
+                            <h2 class="card-title">Hand bags</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo recusandae sed optio
+                                voluptatibus molestiae id ut eius fugit omnis? Explicabo!
+                            </p>
+                            <button type="button" class="btn btn-info">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
